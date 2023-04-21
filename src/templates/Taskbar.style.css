@@ -1,0 +1,42 @@
+/* Default Component Style */
+:host {
+    --border-color:rgba(150, 118, 202, 0.2);
+    --border: 1px solid var(--border-color);
+    --background: rgba(150, 118, 202, 0.2);
+    --shadow-color:rgba(128, 0, 255, 0.2);
+    --shadow: drop-shadow(1px 1px 1px var(--shadow-color));
+    --size: 42px;
+    --corners: 8px;
+    position: absolute;
+    background: var(--background);
+    border-radius: 8px;
+    border: var(--border);
+    filter: var(--shadow);
+    display: inline-block;
+}
+
+/* Child Components */
+button-pin {
+    width: var(--size);
+    height: var(--size);
+}
+
+.space {
+    display: inline-block;
+    flex-grow: 1;
+}
+
+button-minimize {
+    width: var(--size);
+    height: var(--size);
+}
+
+button-restore {
+    width: var(--size);
+    height: var(--size);
+}
+
+button-close {
+    width: var(--size);
+    height: var(--size);
+}
