@@ -44,6 +44,22 @@ describe("Given Visible imported", () => {
   });
 });
 
+/**
+ * @category Metadata: Behavior
+ */
+import { Operation } from "../src/Modal.metadata.js";
+describe("Given Operation imported", () => {
+  it("then Operation should be defined", () => {
+    expect(Operation).toBeDefined();
+  });
+  it("then Operation.HIDE should be defined", () => {
+    expect(Operation.HIDE).toBeDefined();
+  });
+  it("then Operation.SHOW should be defined", () => {
+    expect(Operation.SHOW).toBeDefined();
+  });
+});
+
 import { test } from "../src/Modal.js";
 
 describe("Given Tag imported", () => {
