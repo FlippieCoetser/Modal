@@ -32,3 +32,16 @@ export const Visible = {
  * @category Metadata: State
  */
 export type Visibility = (typeof Visible)[keyof typeof Visible];
+
+/**
+ * @category Metadata: Behavior
+ * @enum
+ */
+export const Operation = {
+  HIDE: "hide",
+  SHOW: "show",
+} as const;
+/**
+ * @category Metadata: Behavior
+ */
+export type Operations = (typeof Operation)[keyof typeof Operation];
