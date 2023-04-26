@@ -45,3 +45,16 @@ export const Operation = {
  * @category Metadata: Behavior
  */
 export type Operations = (typeof Operation)[keyof typeof Operation];
+
+/**
+ * @category Metadata: Behavior
+ * @enum
+ */
+export const Event = {
+  ONHIDE: "onhide",
+  ONSHOW: "onshow",
+} as const;
+/**
+ * @category Metadata: Behavior
+ */
+export type Events = (typeof Event)[keyof typeof Event];
