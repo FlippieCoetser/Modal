@@ -8,10 +8,10 @@ const importmap = {
       "./node_modules/@browser-modules/machine/lib/machine.js",
     "@browser-modules/web.component":
       "./node_modules/@browser-modules/web.component/lib/component.js",
+    "@browser-modules/component.library":
+      "./node_modules/@browser-modules/component.library/lib/library.js",
     "@browser-modules/buttons":
-      "./node_modules/@browser-modules/buttons/lib/Buttons.js",
-    "@browser-modules/taskbar":
-      "./node_modules/@browser-modules/buttons/lib/Taskbar.js",
+      "./node_modules/@browser-modules/buttons/lib/buttons.js",
   },
 };
 

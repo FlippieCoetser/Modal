@@ -12,7 +12,7 @@ import { Minimize } from "@browser-modules/buttons";
 import { Maximize } from "@browser-modules/buttons";
 import { Restore } from "@browser-modules/buttons";
 import { Close } from "@browser-modules/buttons";
-import { Taskbar } from "../lib/Taskbar.js";
+import { Taskbar } from "@browser-modules/taskbar";
 
 customElements.define(Pin.tag, Pin);
 customElements.define(Minimize.tag, Minimize);

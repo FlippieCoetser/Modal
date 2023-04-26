@@ -6,16 +6,17 @@
   <link rel="icon" href="favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="html.style.css">
   <script type="importmap">
-  {"imports":
-    {
-      "@browser-modules/dictionary":"../node_modules/@browser-modules/dictionary/lib/dictionary.js",
-      "@browser-modules/events":"../node_modules/@browser-modules/events/lib/events.js",
-      "@browser-modules/machine":"../node_modules/@browser-modules/machine/lib/machine.js",
-      "@browser-modules/web.component":"../node_modules/@browser-modules/web.component/lib/component.js",
-      "@browser-modules/buttons":"../node_modules/@browser-modules/buttons/lib/Buttons.js",
-      "@browser-modules/taskbar":"../node_modules/@browser-modules/taskbar/lib/Taskbar.js"
-    }
-  }
+            {
+                "imports": {
+                  "@browser-modules/dictionary": "../node_modules/@browser-modules/dictionary/lib/dictionary.js",
+                  "@browser-modules/events": "../node_modules/@browser-modules/events/lib/events.js",
+                  "@browser-modules/component.library": "../node_modules/@browser-modules/component.library/lib/library.js",	
+                  "@browser-modules/machine": "../node_modules/@browser-modules/machine/lib/machine.js",
+                  "@browser-modules/web.component": "../node_modules/@browser-modules/web.component/lib/component.js",
+                  "@browser-modules/buttons": "../node_modules/@browser-modules/buttons/lib/buttons.js",
+                  "@browser-modules/taskbar": "../node_modules/@browser-modules/taskbar/lib/index.js"
+                }
+            }
   </script>
 </head>
 
@@ -24,6 +25,7 @@
   <div class="modal">
     <task-bar></task-bar>
   </div>
+
 </body>
 
 </html>

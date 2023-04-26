@@ -2,12 +2,13 @@ module.exports = function (wallaby) {
   return {
     files: [
       "importmap.js",
+      "src/**/*.ts",
       "node_modules/@browser-modules/dictionary/lib/**/*.js",
       "node_modules/@browser-modules/events/lib/**/*.js",
       "node_modules/@browser-modules/machine/lib/**/*.js",
+      "node_modules/@browser-modules/component.library/lib/**/*.js",
       "node_modules/@browser-modules/web.component/lib/**/*.js",
       "node_modules/@browser-modules/buttons/lib/**/*.js",
-      "src/**/*.ts",
     ],
     tests: ["test/*.ts"],
     filesWithNoCoverageCalculated: [

@@ -1,10 +1,10 @@
 {
   "name": "@browser-modules/modal",
-  "version": "1.0.3",
+  "version": "1.0.1",
   "description": "Taskbar Web Component using ES6 modules",
-  "browser": "lib/Modal.js",
-  "main": "lib/Modal.js",
-  "types": "lib/Modal.d.ts",
+  "browser": "lib/index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "files": [
     "lib/",
     "tasks/"
@@ -25,16 +25,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FlippieCoetser/modal.git"
+    "url": "git+https://github.com/FlippieCoetser/Modal.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/FlippieCoetser/modal/issues"
+    "url": "https://github.com/FlippieCoetser/Modal/issues"
   },
-  "homepage": "https://github.com/FlippieCoetser/modal#readme",
+  "homepage": "https://github.com/FlippieCoetser/Modal#readme",
   "devDependencies": {
-    "@knodes/typedoc-plugin-pages": "^0.22.5",
     "@types/jasmine": "^4.0.3",
     "http-server": "^14.1.0",
     "jasmine": "^4.1.0",
@@ -44,17 +43,18 @@
     "karma-coverage-istanbul-reporter": "^3.0.3",
     "karma-jasmine": "^5.0.1",
     "karma-spec-reporter": "0.0.34",
-    "typedoc": "^0.22.15",
-    "typedoc-plugin-merge-modules": "^3.1.0",
-    "typedoc-plugin-mermaid": "^1.8.0",
-    "typescript": "^4.7.2"
+    "typedoc": "^0.24.6",
+    "typedoc-plugin-merge-modules": "^4.1.0",
+    "typedoc-vscode-theme": "^1.0.4",
+    "typescript": "^5.0.4"
   },
   "dependencies": {
-    "@browser-modules/buttons": "^1.0.6",
+    "@browser-modules/buttons": "^1.0.8",
+    "@browser-modules/component.library": "^1.0.9",
     "@browser-modules/dictionary": "^1.0.8",
     "@browser-modules/events": "^1.1.1",
-    "@browser-modules/machine": "^1.0.7",
-    "@browser-modules/taskbar": "^1.0.4",
-    "@browser-modules/web.component": "^1.0.14"
+    "@browser-modules/machine": "^1.0.8",
+    "@browser-modules/web.component": "^1.0.15",
+    "@browser-modules/taskbar": "^1.0.6"
   }
 }

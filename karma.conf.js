@@ -21,15 +21,15 @@ module.exports = function (config) {
         type: "module",
       },
       {
+        pattern: "./node_modules/@browser-modules/component.library/lib/*.js",
+        type: "module",
+      },
+      {
         pattern: "./node_modules/@browser-modules/web.component/lib/**/*.js",
         type: "module",
       },
       {
         pattern: "./node_modules/@browser-modules/buttons/lib/**/*.js",
-        type: "module",
-      },
-      {
-        pattern: "./node_modules/@browser-modules/taskbar/lib/**/*.js",
         type: "module",
       },
       { pattern: "./src/**/*.js", type: "module" },
