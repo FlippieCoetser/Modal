@@ -60,6 +60,22 @@ describe("Given Operation imported", () => {
   });
 });
 
+/**
+ * @category Metadata: Behavior
+ */
+import { Event } from "../src/Modal.metadata.js";
+describe("Given Event imported", () => {
+  it("then Event should be defined", () => {
+    expect(Event).toBeDefined();
+  });
+  it("then Event.ONHIDE should be defined", () => {
+    expect(Event.ONHIDE).toBeDefined();
+  });
+  it("then Event.ONSHOW should be defined", () => {
+    expect(Event.ONSHOW).toBeDefined();
+  });
+});
+
 import { test } from "../src/Modal.js";
 
 describe("Given Tag imported", () => {
