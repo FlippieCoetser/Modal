@@ -28,6 +28,22 @@ describe("Given Attribute imported", () => {
   });
 });
 
+/**
+ * @category Metadata: State
+ */
+import { Visible } from "../src/Modal.metadata.js";
+describe("Given Visible imported", () => {
+  it("then Visible should be defined", () => {
+    expect(Visible).toBeDefined();
+  });
+  it("then Visible.NO should be defined", () => {
+    expect(Visible.NO).toBeDefined();
+  });
+  it("then Visible.YES should be defined", () => {
+    expect(Visible.YES).toBeDefined();
+  });
+});
+
 import { test } from "../src/Modal.js";
 
 describe("Given Tag imported", () => {
