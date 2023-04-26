@@ -17,3 +17,18 @@ export const Attribute = {
  * @category Metadata: Attributes
  */
 export type Attributes = (typeof Attribute)[keyof typeof Attribute];
+
+/**
+ * Attribute only visible when set to NO
+ * @category Metadata: State
+ * @enum
+ */
+export const Visible = {
+  NO: "no",
+  YES: "yes",
+} as const;
+/**
+ * Attribute only visible when set to NO
+ * @category Metadata: State
+ */
+export type Visibility = (typeof Visible)[keyof typeof Visible];
